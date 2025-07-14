@@ -33,3 +33,38 @@ body {
     background-color: black;
     color: white;
 }
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px; /* Um extra pra deixar os cantos arredondados! */
+}
+
+.links-container a {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none; /* Tira o sublinhado padrão */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.links-container {
+    display: flex;
+    gap: 15px; /* Propriedade moderna pra dar espaço entre os itens! */
+    justify-content: center;
+}
+
+.links-container a:hover {
+    background-color: #0056b3; /* Um azul um pouco mais escuro */
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
